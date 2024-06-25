@@ -143,3 +143,25 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
 }
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D8168;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;    
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.attribution a:visited {
+    color: rgb(17, 16, 17); /* Couleur des liens visités */
+}
+
+.attribution a:hover {
+    color: rgb(102, 11, 11); /* Couleur des liens au survol */
+}
+
